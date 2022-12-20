@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>宋扇5</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      html{
+        width: 640px;
+        height: 1030px;
+      }
+     .image1{
+        margin-left: 400px;
+      	background-repeat:no-repeat;
+      	background-size:cover;
+        z-index:-1;
+        position: absolute;
+      }
+      .image2{
+        width: 50px;
+        height: 40px;
+        text-align: center;
+        margin-top:-800px;
+        margin-left: -400px;
+        position:absolute;
+        z-index:5;
+       animation: action 0.5s linear infinite; 
+       @keyframes action{ 25%{opacity: 0.5} 50%{opacity: 0.1} 75%{opacity: 0.5} 100%{opacity: 0.9} }
+      }
+
+      .image3{
+        z-index:9;
+        opacity:0.6;
+        text-align: center;
+        margin-left: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image1"><img src="beijing1.jpg" /></div>
+   
+    <div class="image2"><img src="yun2.png"  /></div>
+
+    <div class="image3"><img src="wenzi1.jpg"  /></div>
+
+  </body>
+
+</html>
